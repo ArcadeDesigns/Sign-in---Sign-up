@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Biitech Academy</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" action="/signup" method="post">
+            <img class="logo" src="https://biitechacademy.com/wp-content/uploads/2023/09/academy-logo-e1694456806540.png" alt="biitech academy logo">
+            <h2>Sign Up</h2>
+            <div class="form-control">
+                <input type="text" name="fullname" placeholder="Full Name:" required>
+            </div>
+            <div class="form-control">
+                <input type="text" name="username" placeholder="Username:" required>
+            </div>
+            <div class="form-control">
+                <input type="email" name="email" placeholder="Email:" required>
+            </div>
+            <div class="form-control">
+                <input type="password" name="password" placeholder="Password:" required>
+            </div>
+            <div class="form-control">
+                <input type="password" name="confirmPass" placeholder="Confirm Password:" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p class="alt">Already have an account? <a href="signin.html">Sign In</a></p>
+        </form>
+    </div>
+    <script src="signup.js" defer></script>
+</body>
+
+</html>
